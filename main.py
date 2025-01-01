@@ -89,7 +89,8 @@ def pt_set(_dir):
         interval = _dir["interval"]
         print("---PressTrigger---\n"
               "本工具作者B站up：绘星痕\n"
-              "项目地址：\n"
+              "项目地址：https://github.com/Kin-L/PressTrigger\n"
+              "version：1.0\n"
               "----------------------------------------------------\n"
               "当前设置：\n"
               f"   禁用热键：  {disable}\n"
