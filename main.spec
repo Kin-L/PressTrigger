@@ -1,5 +1,5 @@
 # -*- mode: python ; coding: utf-8 -*-
-
+# pyinstaller main.spec
 
 a = Analysis(
     ['main.py'],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='main',
+    name='PressTrigger',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
